@@ -1,0 +1,9 @@
+
+192.168.153.142 root 22
+
+
+192.168.153.133 root 22
+# in case some of servers are faulty.
+#192.168.153.149 root 22
+
+
