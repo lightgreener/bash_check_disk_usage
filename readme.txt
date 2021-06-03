@@ -17,5 +17,4 @@ awk -v ip=$IP 'ip==$1{print $5}'    describe: -v is set available
 ${a%=*}  means only get key, left side of =
 ${a#*=}  means only get value, right side of =
 
-
-
+echo -e "***"      -e means there is a special charactor in following content. 
