@@ -19,7 +19,7 @@ for IP in $(awk '/^\//'{print $1}' $HOST_INFO); do
 		MOUNTED_NAME=${USAGE%=*}
 		USAGE=${USAGE#*=}
 		if [ $USAGE -gt 80   ]; then
-			echo "$MOUNTED_NAME  partition usage over 80% "
+			echo -e "$IP \n $MOUNTED_NAME  partition usage over 80% "
 		
 		else
 			echo " it is fine "
